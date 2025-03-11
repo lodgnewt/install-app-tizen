@@ -5,8 +5,8 @@ if [ -z "$1" ]; then
 		exit 1;
 fi
 
-JELLYFIN_BUILD_OPTION="${2:-Jellyfin}";
-TAG_URL="${3:-https://github.com/jeppevinkel/jellyfin-tizen-builds/releases/latest}";
+JELLYFIN_BUILD_OPTION="${2:lampa_v1.9.1}";
+TAG_URL="${3:-https://github.com/yumata/lampa/releases/latest}";
 
 if [ -z "$2" ]; then
     echo "Build option not provided, using default one: $JELLYFIN_BUILD_OPTION";
